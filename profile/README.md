@@ -1,57 +1,78 @@
-# SaaSInfraLab
+SaaSInfraLab – Open-Source SaaS Infrastructure for AWS EKS
+Mission
 
-## Mission
+SaaSInfraLab is a personal open-source project focused on delivering production-grade infrastructure for SaaS applications using AWS EKS, Terraform, and GitOps. It’s built for developers, DevOps engineers, and platform teams who want a faster path to secure, multi-tenant SaaS deployment in the cloud.
 
-SaaSInfraLab is dedicated to building open-source, production-ready infrastructure and tools for modern SaaS applications. We focus on:
+Core Principles:
 
-- **Cloud-Native Architecture**: Kubernetes, EKS, and containerized applications
-- **Multi-Tenancy**: Secure, scalable multi-tenant SaaS platforms
-- **Infrastructure as Code**: Terraform modules and automation
-- **GitOps**: Automated deployment and configuration management
-- **Best Practices**: Following AWS Well-Architected Framework principles
+Cloud-Native Architecture with Kubernetes, containers, and EKS
 
-## Our Projects
+Multi-Tenant SaaS Patterns for isolation and scalability
 
-We maintain several repositories that work together to provide a complete SaaS infrastructure solution:
+Infrastructure as Code (IaC) with modular Terraform
 
-- **cloudnative-saas-eks**: Complete EKS-based SaaS platform configuration
-- **Terraform-modules**: Reusable Terraform modules for AWS infrastructure
-- **Gitops-pipeline**: GitOps automation and ArgoCD configurations
-- **Sample-saas-app**: Reference SaaS application implementation
+GitOps Automation using Argo CD for continuous delivery
 
-## License
+AWS Best Practices, aligned with the Well-Architected Framework
 
-**All SaaSInfraLab repositories default to Apache 2.0 unless otherwise specified.**
+Projects Included
 
-This means you can:
-- ✅ Use our code commercially
-- ✅ Modify and distribute
-- ✅ Patent use
-- ✅ Private use
+The SaaSInfraLab ecosystem is made up of modular, reusable components:
 
-See the [LICENSE](../LICENSE) file in this repository for full terms.
+cloudnative-saas-eks – A complete multi-tenant SaaS infrastructure setup on Amazon EKS
 
-## Contributing
+terraform-modules – Prebuilt Terraform modules for VPCs, EKS clusters, RDS, IAM, and more
 
-We welcome contributions! Please:
+gitops-pipeline – GitOps workflows using Argo CD for continuous deployment
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+sample-saas-app – A demo SaaS application showcasing tenant-aware architecture
 
-## Support
+These repositories are designed to work together or independently, making it easy to adopt and scale based on your needs.
 
-- **Issues**: Open an issue in the relevant repository
-- **Discussions**: Use GitHub Discussions for questions
-- **Documentation**: Check the `Docs/` directory in each repository
+Licensing
 
-## Connect
+All code under SaaSInfraLab is released under the Apache 2.0 License. You're free to:
 
-- **GitHub Organization**: [@SaaSInfraLab](https://github.com/SaaSInfraLab)
-- **Repositories**: Explore our open-source projects
+Use the infrastructure in commercial and private projects
 
----
+Modify and extend the codebase
 
-**Building the future of SaaS infrastructure, one commit at a time.** 🚀
+Distribute your own versions
 
+Integrate with other cloud-native stacks
+
+Check the LICENSE
+ file for full license terms.
+
+Contributing
+
+Contributions, ideas, and feedback are welcome!
+
+To contribute:
+
+Fork the relevant repository
+
+Create a feature branch
+
+Implement your changes
+
+Open a pull request
+
+You can also open issues for bugs or enhancements.
+
+Support & Documentation
+
+Issues: Open tickets for bugs or support
+
+Docs: Each repo includes a Docs/ directory with architecture guides, setup steps, and deployment instructions
+
+GitHub Discussions: Use for community questions or feedback
+
+Explore the Project
+
+GitHub Organization: @SaaSInfraLab
+
+Figma Site (Visual Architecture Overview): https://eject-garnet-11204794.figma.site/
+
+SaaSInfraLab is built to help you ship SaaS faster, with modern infrastructure that scales.
+Built and maintained as a personal project. Always open to improvements and collaboration.
